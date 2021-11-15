@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+    /*MOBILE*/
+
+/*---------HEADER--------*/
+
+.barra1{
+    width: 100%;
+    /*border: solid 1px red;*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+.barra1 img{
+   width: 20%;
+   height: 50px;
+
+  
+}
+
+.burger-menu i{
+    text-align: right;
+   font-size: 20px;
+   background-color:  rgb(228, 227, 227);
+   padding: 15px;
+   border-radius: 4px;
+   margin: auto;
+   margin-right: 1px;
+}
+
+.barra2 nav ul{
+    display: none;
+}
+
+.barra1 .barra-busqueda {
+    display: none;
+}
+.barra1 .iconos{
+    display: none;
+}
+
+
+
+/*------MAIN------*/
+main .ofertas{
+    display: none;
+}
+
+
+
+
+/*------FOOTER---------*/
+
+footer .seccion1{
+    padding: 10px;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(228, 227, 227);
+}
+footer .seccion1 img{
+ 
+    display: none;
+   
+}
+footer .seccion1 .productos,.contacto,.redes{
+    margin-top: 30px;
+    
+}
+footer .seccion1 h5{
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+footer .seccion1 p{
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+footer .seccion1 .redes{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+footer .seccion2{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(228, 227, 227);
+
+}
+
+
+@media (min-width:700px){
+
+    /*TABLET*/
+
+     /*------HEADER---------*/
+
+    .burger-menu{
+        display: none;
+    }
+    .barra1 .barra-busqueda{
+        display: flex;
+        align-items: center;
+    }
+    .barra1 .barra-busqueda .input{
+        
+        margin-right: 5px;
+        width: 220px;
+        height: 27px;
+        font-size: 12px;
+        border: solid 2px black;
+        padding: 6px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .barra1 .iconos{
+        display: block;
+        margin-top: 15px;
+        width: 16%;
+    }
+
+    .barra1 .iconos i{
+        font-size: 25px;
+        margin-right: 7px;
+        color:black;
+    }
+    
+    .barra2 nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       /*border: solid 1px red;*/
+        padding: 10px;
+        background-color:rgb(228, 227, 227) ;
+    }
+    .barra2 nav ul li {
+        
+        list-style: none;
+    }
+    .barra2 nav ul li a{
+        text-decoration:none;
+        color: black;
+    }
+
+    /*------FOOTER---------*/
+
+    footer .seccion1 img{
+        display: inline-block;
+        margin-top: 22px;
+    }
+    footer .seccion1{
+        
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 10px;
+        
+    }
+
+    footer .seccion1 img{
+        width: 20%;
+        height: 50px;
+        
+    }
+
+    footer .seccion2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    
+}
+
+@media (min-width:1000px){
+    /*------MAIN---------*/
+    
+    main .producto-principal{
+        
+        display: flex;
+        width: 75%;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    main .producto-principal img{
+        width: 70%;
+    }
+    
+    main .caracteristicas{
+        width: 55%;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+    
+    .ofertas-titulo{
+        font-weight: normal;
+        margin-left: 30px;
+        font-size: 24px;
+        text-decoration: underline;
+    
+    
+    }
+    
+    
+    main .ofertas{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        
+    }
+    main .ofertas article img{
+        width: 100%;
+        border-bottom: solid 1px rgb(228, 227, 227);
+        padding: 10px;
+        
+    }
+    
+    main .ofertas article{
+        border: rgb(228, 227, 227) solid 1px;
+        width: 20%;
+        padding: 5px;
+    }
+    main .ofertas article .nombre-precio-mas{
+        padding: 10px;
+    }
+    main .ofertas article .nombre-precio-mas .nombre{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    main .ofertas article .nombre-precio-mas .precio{
+        margin-bottom: 8px;
+        font-size: 19px;
+    }
+    
+    main .ofertas article .nombre-precio-mas a{
+        
+        color: black;
+        text-decoration: none;
+        background-color: rgb(228, 227, 227);
+        padding: 6px;
+        font-size: 15px;
+        border-radius: 2px;
+        
+    }
+    main .ofertas article .nombre-precio-mas .ver-mas{
+        text-align: center;
+    }
+    
+    }
+
