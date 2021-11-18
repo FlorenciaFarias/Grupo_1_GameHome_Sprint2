@@ -53,30 +53,65 @@
 main .imagen-gamer{
     margin-top: 6px;
     width: 100%;
-    height: 220px;
+    height: 30vw;
 }
 
 
 body main .categorias-destacado{
-    width: 80%;
+    width: 90%;
     margin: auto;
+    border: saddlebrown solid 1px;
 }
-body main .categorias-destacado .destacado{
-width: 90%;
+body main .categorias-destacado .destacado02{
+width: 100%;
+}
+body main .categorias-destacado .destacado02 img{
+    width:90%;
+   
+}
+body main .categorias-destacado .categorias02{
+   
+    width: 100%;
+    
 }
 
-body main .categorias-destacado .categorias{
-   
+body main .categorias-destacado .categorias02 img{
     width: 100%;
     height: 85px;
 }
+
+
+
+h3.titulo{
+    text-align: center;
+    font-weight: normal;
+    
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+h3.titulo-ofertas{
+    text-align: center;
+    font-weight: normal;
+    
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+h3.titulo-ofertas{
+    display: none;
+}
+
+
+
+
 
 body main .que-estas-buscando{
     width: 80%;
     margin: auto;
     padding: 10px;
-    
-    
+    margin-top: 10px;
+    border: solid 1px green;
 }
 
 
@@ -90,16 +125,53 @@ body main .que-estas-buscando h3{
 
 
 body main .que-estas-buscando img{
-    width: 80%;
+   /* width: 80%;
     margin-left: 30px;
-    border: solid 1px red;
+    border: solid 1px red;*/
+    width: 100%;
+    border-bottom: solid 1px rgb(228, 227, 227);
+    padding: 10px;
 }
 
-body main article{
-    margin: auto;
+body main .que-estas-buscando article{
+    /*margin: auto;
     border: solid 1px red;
     width: 85%;
+    margin-top: 10px;*/
+    border: rgb(228, 227, 227) solid 1px;
+    width: 20%;
+    padding: 5px;
 }
+
+body main  .que-estas-buscando .nombre-precio-mas{
+    padding: 10px;
+}
+
+body main .nombre-precio-mas .nombre{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+body main article .nombre-precio-mas .precio{
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+body main article .nombre-precio-mas a{
+    
+    color: black;
+    text-decoration: none;
+    background-color: rgb(228, 227, 227);
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 2px;
+    
+}
+
+body main article .nombre-precio-mas .ver-mas{
+    text-align: center;
+}
+
 
 
 
@@ -121,7 +193,9 @@ main .ofertas{
     display: none;
 }
 /*------FOOTER---------*/
-
+footer{
+    margin-top: 20px;
+}
 footer .seccion1{
     padding: 10px;
     margin-top: 100px;
@@ -216,8 +290,91 @@ footer .seccion2{
         color: black;
     }
 
-    /*------FOOTER---------*/
+/*------MAIN---------*/
 
+    
+   
+body main .categorias-destacado{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   margin-top: 30px;
+}
+
+body main .categorias-destacado .destacado02{
+    
+    width: 50%;
+    padding: 5px;
+
+}
+    body main .categorias-destacado .destacado02 img{
+        border: solid 1px red;
+       
+    }
+    body main .categorias-destacado .categorias02{
+       width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 6px;
+    }
+    
+    body main .categorias-destacado .categorias02 .categoria-uno{
+        
+       align-self: flex-start;
+       height: 12vw;
+        
+    }
+    body main .categorias-destacado .categorias02 .categoria-dos{
+        
+        align-self: center;
+        height: 12vw;
+     }
+     body main .categorias-destacado .categorias02 .categoria-tres{
+        
+        align-self: flex-end;
+        height: 12vw;
+     }
+
+
+
+
+     body main .que-estas-buscando{
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+         width: 90%;
+        
+     }
+     body main .que-estas-buscando article{
+         margin-top: 30px;
+         width: 40%;
+         margin-bottom: 5px;
+     }
+
+
+
+     main .banners{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+
+    }
+    main .banners img{
+        padding: 5px;
+        width: 50%;
+        height: 15vw;
+
+    }
+
+
+
+
+
+
+    /*------FOOTER---------*/
+    footer{
+        margin-top: 100px;
+    }
     footer .seccion1 img{
         display: inline-block;
         margin-top: 22px;
@@ -320,6 +477,25 @@ footer .seccion2{
     main .ofertas article .nombre-precio-mas .ver-mas{
         text-align: center;
     }
+
+
+
+    body main .que-estas-buscando{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+       
+    }
+    body main .que-estas-buscando article{
+        width: 22%;
+        margin-bottom: 5px;
+    }
+
+    h3.titulo-ofertas{
+        display: block;
+    }
+
     
     }
 
