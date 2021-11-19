@@ -5,18 +5,23 @@ const port = 3030;
 
 //Ruta elementos estaticos
 app.use(express.static('public'))
+app.use(express.static('public'))
 app.listen(port, () => console.log(`Servidor Funcionando! ${port}!`))
 
 //Ruta index
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html')
 })
-
-
 //Ruta login
+
+
 app.get('/login', (req, res) => {
-    res.sendFile('/views/login.html')
-  })
+  res.sendFile(__dirname + '/views/login.html')
+})
+
+
+
+
 
 //Ruta product cart
   app.get('/carritoDeCompras', (req, res) => {
