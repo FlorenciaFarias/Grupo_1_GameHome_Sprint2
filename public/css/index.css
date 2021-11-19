@@ -154,8 +154,9 @@ body main .que-estas-buscando article{
     width: 85%;
     margin-top: 10px;*/
     border: rgb(228, 227, 227) solid 1px;
-    width: 20%;
+    width: 80%;
     padding: 5px;
+    margin: auto;
 }
 
 body main  .que-estas-buscando .nombre-precio-mas{
@@ -212,29 +213,39 @@ footer{
     margin-top: 20px;
 }
 footer .seccion1{
-    padding: 10px;
+    padding: 5px;
     margin-top: 100px;
+    
+    margin-right: 5px;
     width: 100%;
     text-align: center;
-    background-color: rgb(228, 227, 227);
+    /*background-color: rgb(228, 227, 227);*/
+    border-top: solid 1px rgb(228, 227, 227);
 }
 footer .seccion1 img{
  
     display: none;
    
 }
+
 footer .seccion1 .productos,.contacto,.redes{
     margin-top: 30px;
     
+    
+}
+footer .seccion1 .productos,.contacto{
+    margin-left:110px;
 }
 footer .seccion1 h5{
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 footer .seccion1 p{
     margin-bottom: 7px;
-    font-size: 19px;
+    font-size: 15px;
+    text-align: justify;
 }
 footer .seccion1 .redes{
     margin-bottom: 30px;
@@ -403,12 +414,12 @@ body main .categorias-destacado .destacado02{
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
-        padding: 10px;
+        
         
     }
 
     footer .seccion1 img{
-        width: 20%;
+        width: 15%;
         
         
     }
@@ -514,6 +525,11 @@ body main .categorias-destacado .destacado02{
     h3.titulo-ofertas{
         display: block;
     }
+
+
+
+
+    /*------FOOTER----------*/
 
     
     }
