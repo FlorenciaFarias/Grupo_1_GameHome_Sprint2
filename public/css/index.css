@@ -15,6 +15,7 @@ body{
 }
 .barra1{
     width: 100%;
+    height: 110px;
     /*border: solid 1px red;*/
     display: flex;
     justify-content: space-between;
@@ -55,7 +56,7 @@ body{
 
 .iconos{
     color: white;
-    background-color:#03264C;
+    
 }
 
 
@@ -177,15 +178,33 @@ body main article .nombre-precio-mas a{
     
     color: black;
     text-decoration: none;
-    background-color: rgb(228, 227, 227);
+    
     padding: 6px;
     font-size: 15px;
     border-radius: 2px;
     
 }
 
+
 body main article .nombre-precio-mas .ver-mas{
     text-align: center;
+}
+
+.ver-mas{
+
+    background-color:rgba(211, 184, 31, 0.904);
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    transition-property: background-color, font-size; 
+    transition-duration: 0.3s;
+}
+
+.ver-mas:hover{
+    background-color: #FFF;
+    font-size: 18px;
+    box-shadow: 1px 0px 10px #00ff7b8c;
 }
 
 
@@ -279,8 +298,8 @@ footer .seccion2{
     .barra1 .barra-busqueda .input{
         
         margin-right: 5px;
-        width: 220px;
-        height: 27px;
+        width: 25vw;
+        height: 30px;
         font-size: 12px;
         border: solid 2px black;
         padding: 6px;
@@ -295,8 +314,9 @@ footer .seccion2{
 
     .barra1 .iconos i{
         font-size: 25px;
-        margin-right: 7px;
-        color:black;
+        margin-right: 20px;
+        margin-top: 28px;
+        color:rgb(155, 145, 145);
     }
     
     .barra2 nav ul{
@@ -375,7 +395,7 @@ body main .categorias-destacado .destacado02{
          margin-top: 30px;
          width: 40%;
          margin-bottom: 5px;
-        transition: all 0.4s;
+         transition: all 0.4s;
     }
     body main .que-estas-buscando article:hover{
         box-shadow: 1px 0px 10px #01f174;
@@ -481,6 +501,10 @@ body main .categorias-destacado .destacado02{
         border: rgb(228, 227, 227) solid 1px;
         width: 20%;
         padding: 5px;
+        transition: all 0.4s;
+    }
+    main .ofertas article:hover{
+        box-shadow: 1px 0px 10px #0501f1;
     }
     main .ofertas article .nombre-precio-mas{
         padding: 10px;
