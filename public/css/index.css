@@ -8,8 +8,8 @@
 
 /*---------HEADER--------*/
 body{
-    background: rgb(177,75,255);
-    background: linear-gradient(0deg, rgba(177,75,255,1) 15%, rgba(0,0,0,1) 76%);
+    background: rgb(127,127,255);
+    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(4,0,70,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -192,7 +192,7 @@ body main article .nombre-precio-mas .ver-mas{
 
 .ver-mas{
 
-    background-color:rgba(211, 184, 31, 0.904);
+    background:linear-gradient(to right ,#72d129,#87f234,#faeb52);
     border: 1px solid black;
     padding: 6px;
     font-size: 15px;
@@ -211,8 +211,8 @@ body main article .nombre-precio-mas .ver-mas{
 
 
 main .banners{
-    width: 100%;
-    border: solid 1px red;
+    width: 95%;
+    
     margin: auto;
     margin-top: 40px;
     margin-bottom: -85px;
@@ -227,6 +227,65 @@ main .banners img{
 main .ofertas{
     display: none;
 }
+
+
+/*----NEWSLETTER-----*/
+
+.suscribirse{
+    width: 100%;
+    padding: 10px;
+    margin-top: 140px;
+    margin-bottom: -80px;
+    
+}
+
+.suscribirse .enterate-novedades h3{
+    
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.suscribirse .enterate-novedades p{
+    display: none;
+}
+
+.suscribirse .correo-suscripcion{
+    padding: 2px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.suscribirse .correo-suscripcion input{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+   width: 60%;
+   margin-left: 5px;
+   margin-right: 20px;
+}
+
+.suscribirse .correo-suscripcion button{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 6px;
+    color: rgb(67, 67, 67);
+    border: none;
+    background-color: #FFF;
+
+}
+
+
+
+
+
+
+
+
+
 /*------FOOTER---------*/
 footer{
     margin-top: 20px;
@@ -249,11 +308,12 @@ footer .seccion1 img{
 
 footer .seccion1 .productos,.contacto,.redes{
     margin-top: 30px;
-    
+   
     
 }
 footer .seccion1 .productos,.contacto{
-    margin-left:110px;
+   margin-left: 12px;
+
 }
 footer .seccion1 h5{
     font-weight: normal;
@@ -522,7 +582,7 @@ body main .categorias-destacado .destacado02{
         
         color: black;
         text-decoration: none;
-        background-color: rgb(228, 227, 227);
+        
         padding: 6px;
         font-size: 15px;
         border-radius: 2px;
@@ -549,6 +609,54 @@ body main .categorias-destacado .destacado02{
     h3.titulo-ofertas{
         display: block;
     }
+
+
+
+
+
+    .suscribirse{
+
+        width: 80%;
+        display: flex;
+        
+        justify-content: space-between;
+        margin-left: 136px;
+        border-radius: 5px;
+       
+    }
+
+    .suscribirse .enterate-novedades{
+        width: 40%;
+        
+        
+    }
+    .suscribirse .correo-suscripcion{
+        width: 40%;
+        
+        padding: 5px;
+    }
+    .suscribirse .enterate-novedades h3{
+        text-align: justify;
+    }
+    .suscribirse .enterate-novedades p{
+        display: block;
+        font-size: 15px;
+        
+    }
+
+    .suscribirse .correo-suscripcion button{
+        transition: all 0.4s;
+        
+    
+    }
+    
+    .suscribirse .correo-suscripcion button:hover{
+       background-color: #2757ff;
+       
+    
+    }
+
+
 
 
 
