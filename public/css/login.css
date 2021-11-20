@@ -16,7 +16,8 @@ amarillo: #faeb52
 
 body{
     margin: 0px;
-    background:white;
+    background: rgb(127,127,255);
+background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
     font-family:Arial, Helvetica, sans-serif var(#72d129);
     /*justify-content: center;
     align-items: center;*/
@@ -28,7 +29,7 @@ body{
 
 }
 .formulario{
-    background-color: black;
+    
     margin:0;;
     padding: 3px;
     width:100vw;
@@ -100,7 +101,8 @@ hr{
 }
 @media(min-width:768px){
     body{
-        background:black; ;
+        background: rgb(127,127,255);
+background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
     }
     .formulario{
         margin:auto;
