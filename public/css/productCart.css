@@ -5,9 +5,9 @@
 }
 
 body{
-    background: rgb(177,75,255);
-    background: linear-gradient(0deg, rgba(177,75,255,1) 15%, rgba(0,0,0,1) 76%);
-    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(127,127,255);
+    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
+    font-family: Montserrat, sans-serif;;
     color: white;
 }
 
@@ -75,11 +75,26 @@ body{
 /*main*/
 
 .articulo{
+    background-color:rgba(32, 42, 129, 0.253);
+    
+    border: 1px  #8d53fd;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
 
-    border: 1px solid blanchedalmond;
-    border-radius: 25px solid #fff;
-    width: 100%;
 }
+/*Imagen, título y precio del producto*/
+.img-titulo-precio{
+    display: flex;
+
+}
+.precio{
+
+    align-self: center;
+    border-bottom-style: inset;
+}
+
 
 .trash-alt{
     color: white;
@@ -94,16 +109,28 @@ main article img{
     background: #87f234;
     
 }
+.contenedor-img{
 
+    margin-left: 15px;
+    width: 20%;
+}
+.descripcion{
+    font-size: 14px;
+    text-align: center;
+    width: 40%;
+    /*border-right: 1px solid white;*/
+
+}
 .precio{
-    
+    font-size:14px ;
     text-align: left;
+    
 }
 
 .boton-cantidad{
     
-    top: -20px;
-    left: 75%;
+    margin-top: 15px;
+    left: 15px;
     text-align: center;
 }
 
