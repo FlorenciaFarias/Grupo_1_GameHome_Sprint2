@@ -5,31 +5,43 @@ n*{
 }
 
     /*MOBILE*/
+   
+/*---------HEADER--------*/ 
 
-/*---------HEADER--------*/
-
+body{
+    background: rgb(177,75,255);
+    background: linear-gradient(0deg, rgba(177,75,255,1) 15%, rgba(0,0,0,1) 76%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;   
+}
 .barra1{
     width: 100%;
     /*border: solid 1px red;*/
     display: flex;
     justify-content: space-between;
     
+    
 }
 .barra1 img{
-   width: 20%;
-   height: 50px;
-
+   width: 15%;
   
 }
 
 .burger-menu i{
     text-align: right;
-   font-size: 20px;
-   background-color:  rgb(228, 227, 227);
-   padding: 15px;
-   border-radius: 4px;
-   margin: auto;
-   margin-right: 1px;
+    font-size: 20px;
+    background-color:  rgb(228, 227, 227);
+    padding: 15px;
+    border-radius: 4px;
+    margin: auto;
+}
+.btn{
+    position: absolute;
+    top:0;   
+    right: 0;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
 }
 
 .barra2 nav ul{
@@ -41,6 +53,11 @@ n*{
 }
 .barra1 .iconos{
     display: none;
+}
+
+.iconos{
+    color: white;
+    background-color:#03264C;
 }
 
 /*------MAIN---------*/
@@ -198,7 +215,7 @@ footer .seccion2{
 
      /*------HEADER---------*/
 
-    .burger-menu{
+     .burger-menu{
         display: none;
     }
     .barra1 .barra-busqueda{
@@ -245,7 +262,6 @@ footer .seccion2{
         color: black;
     }
 
-
     /*------MAIN---------*/
 
 
@@ -285,6 +301,14 @@ footer .seccion2{
 }
 
 @media (min-width:1000px){
+
+
+
+
+
+
+
+
 /*------MAIN---------*/
 
 main .producto-principal{
