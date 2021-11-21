@@ -21,6 +21,8 @@ body{
     
 }
 
+
+
 .barra1 img{
    width: 100%;
    height: 109px;
@@ -38,7 +40,6 @@ body{
 .burger-menu i{
     text-align: right;
     font-size: 20px;
-    background-color:  rgb(228, 227, 227);
     padding: 15px;
     border-radius: 4px;
     margin: auto;
@@ -76,7 +77,6 @@ body{
 
 .articulo{
     background-color:rgba(32, 42, 129, 0.253);
-    
     border: 1px  #8d53fd;
     width: 95%;
     margin: auto;
@@ -95,13 +95,6 @@ body{
     border-bottom-style: inset;
 }
 
-
-.trash-alt{
-    color: white;
-    width: 25px;
-    border: 1px solid blue;
-
-}
 main article img{
     display: flex;
     margin-left: 65px;
@@ -133,8 +126,136 @@ main article img{
     left: 15px;
     text-align: center;
 }
+article i{
+    color: #87f234;
+    width: 25px;
+    height: 10px;
+    align-self: left;
+    
+
+}
+
+.seguir-comprando{
+    
+    align-self: flex-end;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.seguir{
+
+    background-color: #87f234;
+    margin-right: 4px;
+}
+.comprando{
+    background-color: #87f234;
+    width: 95%;
+    
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+/*-contenedor Total--*/
+
+.total{
+    border: 1px solid white;
+    margin:5%;
+    left: 5%;
+    
 
 
+}
+.titulos{
+
+    background: rgba(127,127,255,1);
+    margin-bottom: 2%;
+    
+}
+.envio{
+    margin-bottom:2%;
+    font-size: 18px;
+    
+
+}
+.resultados{
+    text-align: left;
+    background-color: rgba(32, 42, 129, 0.253);
+    margin-bottom: 2%;
+    color:skyblue;
+}
+.boton-comprar{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,140,140,1) 100%);
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-property: background-color, font-size; 
+    transition-duration: 0.3s;
+}
+
+.boton-comprar:hover{
+    background-color: #FFF;
+    font-size: 18px;
+    box-shadow: 1px 0px 10px #00ff7b8c;
+}
+
+
+/*------FOOTER---------*/
+footer{
+    margin-top: 20px;
+}
+footer .seccion1{
+    padding: 5px;
+    margin-top: 100px;
+    
+    margin-right: 5px;
+    width: 100%;
+    text-align: center;
+    /*background-color: rgb(228, 227, 227);*/
+    border-top: solid 1px rgb(228, 227, 227);
+}
+footer .seccion1 img{
+ 
+    display: none;
+   
+}
+
+footer .seccion1 .productos,.contacto,.redes{
+    margin-top: 30px;
+   
+    
+}
+footer .seccion1 .productos,.contacto{
+   margin-left: 12px;
+
+}
+footer .seccion1 h5{
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+footer .seccion1 p{
+    margin-bottom: 7px;
+    font-size: 15px;
+    text-align: justify;
+}
+footer .seccion1 .redes{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+footer .seccion2{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(228, 227, 227);
+
+}
 
 
 
@@ -159,7 +280,7 @@ main article img{
         width: 25vw;
         height: 30px;
         font-size: 12px;
-        border: solid 2px black;
+        border: solid 2px#87f234;
         padding: 6px;
         border-radius: 15px;
         text-align: center;
@@ -168,14 +289,22 @@ main article img{
         display: block;
         margin-top: 15px;
         width: 16%;
+        
     }
 
     .barra1 .iconos i{
         font-size: 25px;
         margin-right: 20px;
         margin-top: 28px;
-        color:rgb(155, 145, 145);
+        color:#87f234;
+        
 
+    }
+
+   .barra2 i{
+
+        font-size: 15px;
+        color:#87f234;
     }
 
     
@@ -185,7 +314,7 @@ main article img{
         justify-content: space-around;
        /*border: solid 1px red;*/
         padding: 10px;
-        background-color:rgb(228, 227, 227) ;
+        background:#000;
     }
     .barra2 nav ul li {
         
@@ -193,7 +322,7 @@ main article img{
     }
     .barra2 nav ul li a{
         text-decoration:none;
-        color: black;
+        color: #FFF;
     }
     .iconos-barra2 i{
         border: 1px solid wheat;
