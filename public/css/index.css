@@ -76,7 +76,7 @@ main .imagen-gamer{
 body main .categorias-destacado{
     width: 90%;
     margin: auto;
-    border: saddlebrown solid 1px;
+    
 }
 body main .categorias-destacado .destacado02{
 width: 100%;
@@ -135,7 +135,7 @@ body main .que-estas-buscando{
     margin: auto;
     padding: 10px;
     margin-top: 10px;
-    border: solid 1px green;
+    /*border: solid 1px green;*/
 
 
 }
@@ -168,6 +168,7 @@ body main .que-estas-buscando article{
     width: 80%;
     padding: 5px;
     margin: auto;
+    margin-top: 15px;
 }
 
 body main  .que-estas-buscando .nombre-precio-mas{
@@ -388,7 +389,7 @@ footer .seccion2{
 
     .barra1 .iconos i{
         font-size: 25px;
-        margin-right: 20px;
+        margin-right: 5%;
         margin-top: 28px;
         color:rgb(155, 145, 145);
     }
@@ -427,10 +428,7 @@ body main .categorias-destacado .destacado02{
     padding: 5px;
 
 }
-    body main .categorias-destacado .destacado02 img{
-        border: solid 1px red;
-       
-    }
+    
     body main .categorias-destacado .categorias02{
        width: 50%;
         display: flex;
@@ -532,6 +530,17 @@ body main .categorias-destacado .destacado02{
 }
 
 @media (min-width:1000px){
+
+    /*--HEADER--------*/
+
+    
+    .barra1 .iconos i{
+       margin-right: 15px;
+    }
+
+
+
+
     /*------MAIN---------*/
     
     main .producto-principal{
