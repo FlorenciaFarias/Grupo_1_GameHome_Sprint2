@@ -412,6 +412,7 @@ main .producto-principal img{
 }
 
 main .caracteristicas{
+    margin: auto;
     width: 55%;
     text-align: left;
     margin-bottom: 100px;
