@@ -23,6 +23,98 @@ background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
     align-items: center;*/
 
 }
+
+.barra1{
+    width: 100%;
+    height: 110px;
+    /*border: solid 1px red;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(197, 191, 191);
+    
+    
+}
+
+
+.barra1 img{
+    display: none;
+   
+}
+.contenedor-logo{
+    width: 200px;
+    height: 109px;
+    bottom: 1px;
+
+}
+
+.burger-menu i{
+    position: absolute;
+    font-size: 25px;
+    border-radius: 4px;
+    right: 89%;
+    margin: auto;
+    padding: 10px;
+}
+/*carrito*/
+
+.barra1 .carrito i{
+    position: absolute;
+    font-size: 22px;
+    border-radius: 4px;
+    left: 89%;
+    
+    padding: 10px;
+    color:#FFF;
+}
+
+
+.barra1 .barra-busqueda{
+    display: flex;
+    align-items: center;
+
+}
+
+.barra1 .barra-busqueda .input{
+    height: 20px;
+    font-size: 13px;
+    border: solid 2px rgb(197, 191, 191);
+    padding: 6px;
+    border-radius: 9px;
+    text-align: center;
+    margin-right:4px ;
+}
+
+.barra1 .barra-busqueda{
+
+    
+    margin-bottom:69px;
+    margin-left:-72%;
+    
+}
+
+
+
+.barra1 .iconos{
+    display: none;
+}
+
+.iconos{
+    color: white;
+    
+}
+/*Sub menu2*/
+
+
+
+.barra2 nav ul{
+    display: none;
+}
+.iconos-barra2 i{
+    display: none;
+
+}
+
+/*COMIENZA EL FORMULARIO*/
 .contenedor{
     width: 100%;
     padding: 15px;
@@ -99,6 +191,174 @@ hr{
     width: 50%;
     margin: 40px auto 30px;
 }
+
+/*------FOOTER---------*/
+footer{
+    margin-top: 20px;
+}
+footer .seccion1{
+    padding: 5px;
+    margin-top: 100px;
+    
+    margin-right: 5px;
+    width: 100%;
+    text-align: center;
+    /*background-color: rgb(228, 227, 227);*/
+    border-top: solid 1px rgb(228, 227, 227);
+}
+footer .seccion1 img{
+ 
+    display: none;
+   
+}
+
+footer .seccion1 .productos,.contacto,.redes{
+    margin-top: 30px;
+   
+    
+}
+footer .seccion1 .productos,.contacto{
+   margin-left: 12px;
+
+}
+footer .seccion1 h5{
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+footer .seccion1 p{
+    margin-bottom: 7px;
+    font-size: 15px;
+    text-align: justify;
+}
+footer .seccion1 .redes{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+footer .seccion2{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(228, 227, 227);
+
+}
+
+@media (min-width:700px){
+
+    /*TABLET*/
+
+     /*------HEADER---------*/
+
+
+    .barra1 img{
+        display: block;
+        width: 35%;
+
+     }
+    .burger-menu{
+        display: none;
+    }
+    
+.barra1 .barra-busqueda{
+
+    margin-left: 0;
+    margin-top: 56px;
+    margin: auto;
+}
+
+    .barra1 .barra-busqueda .input{
+        
+        margin-right: 5px;
+        width: 25vw;
+        height: 30px;
+        font-size: 12px;
+        border: solid 2px#87f234;
+        padding: 6px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .barra1 .iconos{
+        display: block;
+        margin-top: 15px;
+        width: 16%;
+        
+        
+    }
+
+    .barra1 .iconos i{
+        font-size: 25px;
+        margin-right: 5%;
+        margin-top: 28px;
+        color:#87f234;
+        
+
+    }
+    .barra1 .carrito i{
+        display: none;
+    }
+
+
+   .barra2 i{
+
+        font-size: 15px;
+        color:#87f234;
+    }
+
+    
+    .barra2 nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       /*border: solid 1px red;*/
+        padding: 10px;
+        background:#000;
+    }
+    .barra2 nav ul li {
+        
+        list-style: none;
+    }
+    .barra2 nav ul li a{
+        text-decoration:none;
+        color: #FFF;
+    }
+    .iconos-barra2 i{
+        border: 1px solid wheat;
+        display: block;
+
+    }
+ /*------FOOTER---------*/
+ footer{
+    margin-top: 100px;
+}
+footer .seccion1 img{
+    display: inline-block;
+    margin-top: 22px;
+}
+footer .seccion1{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+    
+}
+
+footer .seccion1 img{
+    width: 15%;
+    
+    
+}
+
+footer .seccion2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 @media(min-width:768px){
     body{
         background: rgb(127,127,255);
@@ -116,4 +376,3 @@ background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
     
     }
 }
-

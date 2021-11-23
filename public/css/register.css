@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@
 body{
     background: rgb(127,127,255);
     background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(4,0,70,1) 100%);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: white;
 }
 .barra1{
@@ -19,37 +19,70 @@ body{
     /*border: solid 1px red;*/
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(197, 191, 191);
+    
     
 }
+
+
 .barra1 img{
-   width: 15%;
-  
+    display: none;
+   
+}
+.contenedor-logo{
+    width: 200px;
+    height: 109px;
+    bottom: 1px;
+
 }
 
 .burger-menu i{
-    text-align: right;
-    font-size: 20px;
-    background-color:  rgb(228, 227, 227);
-    padding: 15px;
-    border-radius: 4px;
-    margin: auto;
-}
-.btn{
     position: absolute;
-    top:0;
-    right: 0;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
+    font-size: 25px;
+    border-radius: 4px;
+    right: 89%;
+    margin: auto;
+    padding: 10px;
+}
+/*carrito*/
+
+.barra1 .carrito i{
+    position: absolute;
+    font-size: 22px;
+    border-radius: 4px;
+    left: 89%;
+    
+    padding: 10px;
+    color:#FFF;
 }
 
-.barra2 nav ul{
-    display: none;
+
+.barra1 .barra-busqueda{
+    display: flex;
+    align-items: center;
+
 }
 
-.barra1 .barra-busqueda {
-    display: none;
+.barra1 .barra-busqueda .input{
+    height: 20px;
+    font-size: 13px;
+    border: solid 2px rgb(197, 191, 191);
+    padding: 6px;
+    border-radius: 9px;
+    text-align: center;
+    margin-right:4px ;
 }
+
+.barra1 .barra-busqueda{
+
+    
+    margin-bottom:69px;
+    margin-left:-72%;
+    
+}
+
+
+
 .barra1 .iconos{
     display: none;
 }
@@ -58,7 +91,17 @@ body{
     color: white;
     
 }
+/*Sub menu2*/
 
+
+
+.barra2 nav ul{
+    display: none;
+}
+.iconos-barra2 i{
+    display: none;
+
+}
 
 
 /*------MAIN------*/
@@ -705,9 +748,7 @@ body main .categorias-destacado .destacado02{
     font-family:'Roboto' ,sans-serif;
 }
 
-body{
-    
-}
+
 
 /*--Contenedor de los registros--*/
 .container{
@@ -862,6 +903,10 @@ position: relative;
   }
   
   @media (max-width:700px){
+
+    
+
+
     .login-container{
         display: block;
       }

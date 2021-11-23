@@ -19,38 +19,70 @@ body{
     /*border: solid 1px red;*/
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(197, 191, 191);
     
     
 }
+
+
 .barra1 img{
-   width: 15%;
-  
+    display: none;
+   
+}
+.contenedor-logo{
+    width: 200px;
+    height: 109px;
+    bottom: 1px;
+
 }
 
 .burger-menu i{
-    text-align: right;
-    font-size: 20px;
-    background-color:  rgb(228, 227, 227);
-    padding: 15px;
-    border-radius: 4px;
-    margin: auto;
-}
-.btn{
     position: absolute;
-    top:0;
-    right: 0;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
+    font-size: 25px;
+    border-radius: 4px;
+    right: 89%;
+    margin: auto;
+    padding: 10px;
+}
+/*carrito*/
+
+.barra1 .carrito i{
+    position: absolute;
+    font-size: 22px;
+    border-radius: 4px;
+    left: 89%;
+    
+    padding: 10px;
+    color:#FFF;
 }
 
-.barra2 nav ul{
-    display: none;
+
+.barra1 .barra-busqueda{
+    display: flex;
+    align-items: center;
+
 }
 
-.barra1 .barra-busqueda {
-    display: none;
+.barra1 .barra-busqueda .input{
+    height: 20px;
+    font-size: 13px;
+    border: solid 2px rgb(197, 191, 191);
+    padding: 6px;
+    border-radius: 9px;
+    text-align: center;
+    margin-right:4px ;
 }
+
+.barra1 .barra-busqueda{
+
+    
+    margin-bottom:69px;
+    margin-left:-72%;
+    
+}
+
+
+
 .barra1 .iconos{
     display: none;
 }
@@ -59,6 +91,18 @@ body{
     color: white;
     
 }
+/*Sub menu2*/
+
+
+
+.barra2 nav ul{
+    display: none;
+}
+.iconos-barra2 i{
+    display: none;
+
+}
+
 
 /*------MAIN---------*/
 
@@ -282,55 +326,87 @@ footer .seccion2{
 
 
 @media (min-width:700px){
- /*------HEADER---------*/
+ /*TABLET*/
 
- .burger-menu{
-    display: none;
-}
+     /*------HEADER---------*/
+
+
+     .barra1 img{
+        display: block;
+        width: 35%;
+
+     }
+    .burger-menu{
+        display: none;
+    }
+    
 .barra1 .barra-busqueda{
-    display: flex;
-    align-items: center;
-}
-.barra1 .barra-busqueda .input{
-    
-    margin-right: 5px;
-    width: 25vw;
-    height: 30px;
-    font-size: 12px;
-    border: solid 2px black;
-    padding: 6px;
-    border-radius: 15px;
-    text-align: center;
-}
-.barra1 .iconos{
-    display: block;
-    margin-top: 15px;
-    width: 16%;
+
+    margin-left: 0;
+    margin-top: 56px;
+    margin: auto;
 }
 
-.barra1 .iconos i{
-    font-size: 25px;
-    margin-right: 5%;
-    margin-top: 28px;
-    color:rgb(155, 145, 145);
-}
+    .barra1 .barra-busqueda .input{
+        
+        margin-right: 5px;
+        width: 25vw;
+        height: 30px;
+        font-size: 12px;
+        border: solid 2px#87f234;
+        padding: 6px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .barra1 .iconos{
+        display: block;
+        margin-top: 15px;
+        width: 16%;
+        
+        
+    }
 
-.barra2 nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-   /*border: solid 1px red;*/
-    padding: 10px;
-    background-color:rgb(228, 227, 227) ;
-}
-.barra2 nav ul li {
+    .barra1 .iconos i{
+        font-size: 25px;
+        margin-right: 5%;
+        margin-top: 28px;
+        color:#87f234;
+        
+
+    }
+    .barra1 .carrito i{
+        display: none;
+    }
+
+
+   .barra2 i{
+
+        font-size: 15px;
+        color:#87f234;
+    }
+
     
-    list-style: none;
-}
-.barra2 nav ul li a{
-    text-decoration:none;
-    color: black;
-}
+    .barra2 nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       /*border: solid 1px red;*/
+        padding: 10px;
+        background:#000;
+    }
+    .barra2 nav ul li {
+        
+        list-style: none;
+    }
+    .barra2 nav ul li a{
+        text-decoration:none;
+        color: #FFF;
+    }
+    .iconos-barra2 i{
+        border: 1px solid wheat;
+        display: block;
+
+    }
 
 
 
