@@ -616,7 +616,7 @@ body main .categorias-destacado .destacado02{
 
     footer .seccion2{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         
     }
 

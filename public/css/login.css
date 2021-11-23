@@ -277,7 +277,7 @@ footer .seccion1 .redes{
 footer .seccion2{
     display: flex;
     padding: 7px;
-    justify-content: center;
+    justify-content: space-between;
     background-color: black;
     color: rgb(228, 227, 227);
 
