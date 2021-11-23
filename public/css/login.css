@@ -56,7 +56,6 @@ body{
     width: 200px;
     height: 109px;
     bottom: 1px;
-
 }
 
 .burger-menu i{
@@ -67,6 +66,10 @@ body{
     margin: auto;
     padding: 10px;
 }
+
+
+
+
 /*carrito*/
 
 .barra1 .carrito i{
@@ -114,9 +117,11 @@ body{
     color: white;
     
 }
+
+
+
+
 /*Sub menu2*/
-
-
 
 .barra2 nav ul{
     display: none;
@@ -127,7 +132,16 @@ body{
 }
 
 
+
+
+
+
+
+
+
 /*COMIENZA EL FORMULARIO*/
+
+
 .contenedor{
     width: 80%;
     padding: 2px;
@@ -202,10 +216,18 @@ p{
 }
 
 hr{
-    border-color: rgb(255, 255, 255);
-    width: 50%;
-    margin: 40px auto 30px;
+    display: none;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*------FOOTER---------*/
 footer{
@@ -218,7 +240,6 @@ footer .seccion1{
     margin-right: 5px;
     width: 100%;
     text-align: center;
-    /*background-color: rgb(228, 227, 227);*/
     border-top: solid 1px rgb(228, 227, 227);
 }
 footer .seccion1 img{
@@ -262,6 +283,7 @@ footer .seccion2{
 
 }
 
+
 @media (min-width:700px){
 
     /*TABLET*/
@@ -271,7 +293,7 @@ footer .seccion2{
 
     .barra1 img{
         display: block;
-        width: 35%;
+        width: 87%;
 
      }
     .burger-menu{
@@ -328,7 +350,6 @@ footer .seccion2{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-       /*border: solid 1px red;*/
         padding: 10px;
         background:#000;
     }
@@ -346,6 +367,23 @@ footer .seccion2{
 
     }
 
+
+
+
+
+
+
+    /*--------MAIN--------------*/
+
+
+
+
+
+
+    main{
+        margin: auto;
+    }
+    
     .formulario{
         margin:auto;
         width: 350px;
@@ -357,54 +395,46 @@ footer .seccion2{
         box-shadow: 0px 0px 10px #72d129
     
     }
-}
 
 
-
-
- /*------FOOTER---------*/
- footer{
-    margin-top: 100px;
-}
-footer .seccion1 img{
-    display: inline-block;
-    margin-top: 22px;
-}
-footer .seccion1{
     
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    
-    
-}
-
-footer .seccion1 img{
-    width: 15%;
-    
-    
-}
-
-footer .seccion2{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-/*@media(min-width:768px){
-    body{
-        background: rgb(127,127,255);
-        background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
+    /*------FOOTER---------*/
+    footer{
+        margin-top: 100px;
     }
-    .formulario{
-        margin:auto;
-        width: 350px;
-        height: 550px;
-        position: relative;
-        margin:6% auto;
-        background:black;
-        padding: 5px;
-        box-shadow: 0px 0px 10px #72d129
-    
+    footer .seccion1 img{
+        display: inline-block;
+        margin-top: 22px;
     }
-}*/
+    footer .seccion1{
+        
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        
+        
+    }
+
+    footer .seccion1 img{
+        width: 15%;
+        
+        
+    }
+
+    footer .seccion2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
