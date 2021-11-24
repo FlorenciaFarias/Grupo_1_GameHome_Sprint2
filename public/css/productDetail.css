@@ -410,7 +410,53 @@ footer .seccion2{
 
 
 
+    .suscribirse{
 
+        width: 80%;
+        display: flex;
+        margin-left: 10%;
+        justify-content: space-between;
+        
+        border-radius: 5px;
+       
+    }
+    .suscribirse .enterate-novedades{
+        width: 40%;
+        
+        
+    }
+    .suscribirse .correo-suscripcion{
+        width: 60%;
+        
+        padding: 5px;
+    }
+    .suscribirse .enterate-novedades h3{
+        text-align: center;
+    }
+    .suscribirse .enterate-novedades p{
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+
+    .suscribirse .correo-suscripcion button{
+        transition: all 0.5s;
+        
+    
+    }
+    
+    .suscribirse .correo-suscripcion button:hover{
+        background-color:  rgb(167, 165, 165);
+        /* rgba(140,140,140,1) 100%);*/
+    
+    
+    }
+
+
+    .final{
+        justify-content: center;
+    }
 
 
 
@@ -428,7 +474,9 @@ footer .seccion2{
     }
     footer .seccion1 img{
         display: inline-block;
-        margin-top: 22px;
+        margin-top: 50px;
+        width: 30vw;
+        height: 17vh;
     }
     footer .seccion1{
         
@@ -439,11 +487,6 @@ footer .seccion2{
         
     }
 
-    footer .seccion1 img{
-        width: 15%;
-        
-        
-    }
 
     footer .seccion2{
         display: flex;

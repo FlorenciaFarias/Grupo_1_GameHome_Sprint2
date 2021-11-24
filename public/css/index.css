@@ -253,7 +253,7 @@ body main article .nombre-precio-mas .ver-mas{
 .ver-mas{
 
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,140,140,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,140,140,1) 100%);
     border: 1px solid black;
     padding: 6px;
     font-size: 15px;
@@ -472,7 +472,7 @@ footer .seccion2{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-       /*border: solid 1px red;*/
+        
         padding: 10px;
         background:#000;
     }
@@ -483,7 +483,10 @@ footer .seccion2{
     .barra2 nav ul li a{
         text-decoration:none;
         color: #FFF;
+        
     }
+    
+
     .iconos-barra2 i{
         border: 1px solid wheat;
         display: block;
@@ -592,6 +595,55 @@ body main .categorias-destacado .destacado02{
         width: 50%;
         height: 15vw;
 
+    }
+
+
+    .suscribirse{
+
+        width: 80%;
+        display: flex;
+        margin-left: 10%;
+        justify-content: space-between;
+        
+        border-radius: 5px;
+       
+    }
+    .suscribirse .enterate-novedades{
+        width: 40%;
+        
+        
+    }
+    .suscribirse .correo-suscripcion{
+        width: 60%;
+        
+        padding: 5px;
+    }
+    .suscribirse .enterate-novedades h3{
+        text-align: center;
+    }
+    .suscribirse .enterate-novedades p{
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+
+    .suscribirse .correo-suscripcion button{
+        transition: all 0.5s;
+        
+    
+    }
+    
+    .suscribirse .correo-suscripcion button:hover{
+        background-color:  rgb(167, 165, 165);
+        /* rgba(140,140,140,1) 100%);*/
+    
+    
+    }
+
+
+    .final{
+        justify-content: center;
     }
 
 
