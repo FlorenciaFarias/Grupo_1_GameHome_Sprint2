@@ -463,9 +463,9 @@ footer .seccion2{
 }
 
 .register h2{
-    color: #333;
+    color: #2e2d2d;
     margin-bottom: 30px;
-    text-shadow: 6px 0px 7px #87f234;;
+    text-shadow: 0px 0px 0px #000000;
 }
 
 .register input{
@@ -488,9 +488,10 @@ footer .seccion2{
     width: 100%;
     padding: 10px;
     background:linear-gradient(to right ,#72d129,#87f234,#faeb52) ;
-    color:white ;
-    font-size: 12px;
-    box-shadow:6px 0px 7px #000; 
+    color:#000000 ;
+    font-size: 16px;
+    box-shadow:2px 2px 7px 1px #3c3c3c;
+    text-shadow: 0px 1px 1px #000000;
     cursor: pointer;
 }
 
@@ -560,7 +561,8 @@ position: relative;
     border-style: none;
     color: #fff;
   }
-   
+   .iniciar-sesion{color :#000;
+    }
 
 
   

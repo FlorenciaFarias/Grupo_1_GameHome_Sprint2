@@ -1,24 +1,22 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="/css/login.css" rel="stylesheet">
-    <title>Iniciar sesión</title>
-    
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Login</title>
 </head>
 <body>
-
-
-    <!--COMIENZA EL HEADER-->
     <header>
 
         <section class="barra1">
 
             <div class="contenedor-logo">
-                <a href="/"><img src="/images/logo-174px.png" alt="logo que dice: Game Home"></a>
+                <a href="/"><img src="/images/logo.jpeg" alt="logo que dice: Game Home"></a>
 
              </div>
             <div class="burger-menu">
@@ -68,10 +66,10 @@
             <nav>
                 
                     <ul>
-                        <li><a href="#">PCs/Notebooks</a></li>
-                        <li><a href="#">Armá tu pc</a></li>
+                        <li><a href="#">PC's/Noteboook</a></li>
+                        <li><a href="#">Arma tu pc</a></li>
                         <li><a href="#">Audio & Video</a></li>
-                        <li><a href="#">Sillas Gamers</a></li>
+                        <li><a href="#">Sillas Gamer's</a></li>
                         <a href="/"><i class="fas fa-bell"></i></a>
                         <a href="/"><i class="fas fa-heart"></i></a>
                     </ul>
@@ -86,55 +84,66 @@
 
 
 
+    
+
+
     </header>
 
-    <!--COMIENZA EL FORMULARIO-->
+   <main>
 
-    <main>
+   <!--FORMULARIO DE REGISTRO-->
+    <div class="container">
+        <div class="login-container">
+            
 
+        
+            <div class="login">
+                <h2>Iniciar con redes</h2>
+                <div class="login-items">
+                    <button class="fb"><i class="fab fa-facebook-f"></i> Iniciar con Facebook</button>
 
-    <form action="" method="post" id="form">
-    <div class="formulario">
-        <h1>Iniciar sesión</h1>
-            <div class="contenedor">
-                <div class="logo">
-                    <a href="/"><img src="/images/logo-174px.png" alt="icono-logo"></a>
+                    <button class="tw"><i class="fab fa-twitter"></i> Iniciar con Twitter</button>
+
+                    <button class="ig"><i class="fas fa-camera"></i> Iniciar con Instagram</button>
+
                 </div>
 
-            <!--nombre de usuario -->
-                    <div class="input-contenedor">
-                     <label for="nombre"></label>
-                         <input type="text" placeholder="correo electronico" required>
-                 </div>
-
-                    <!--contraseña-->
-            <div class="input-contenedor">
-                <label for="contraseña"></label>
-                <input type="password" placeholder="contraseña" required>
             </div>
-            
-            
-                    <!--boton de inicio de sesión-->
-                    <section class="boton">
-                <button type="submit" value="iniciar sesion" class="button">Iniciar sesión</button>
-            </section>
-            <div class="cambio-contraseña"></div>
-            <a class="password-new" href="/new-password.html" >¿Olvidaste tu contraseña?</a>
+            <div class="register">
+                <h2>Iniciar sesion</h2>
+                <form action="POST" id="form">
+                    <input type="text" name="nombre" class="nombre" placeholder="Nombre de usuario o Correo" required>
+
+                    
+
+                    <input type="password" name="contraseña" class="contraseña" placeholder="Contraseña" required>
+
+                    
+
+
+                    <input type="submit" class="submit" value="INICIAR SESION">
+
+
+
+                    <p class="link"><a href="/">¿Olvidaste tu contraseña?</a></p><br>
+                    <p class="link"><a href="/registro">¿No tienes cuenta? ¡Registrate!</a></p>
+
+                </form>    
+            </div>
+
         </div>
-        <div class="cambio-contraseña"></div>
-            <a class="password-new" href="/registro" style="margin-right: 20px;">¿Ya tenes cuenta Inicia Sesion?</a>
-        </div>
-        <hr>
     </div>
-</form>
-    </main>
-<!--COMIENZA EL FOOTER-->
-<footer>
+
+
+
+   </main>
+
+   <footer>
 
 
     <section class="seccion1">
 
-        <img src="/images/logo-174px.png" alt="logo">
+        <img src="/images/logo.jpeg" alt="logo">
 
         <div class="productos">
 
@@ -186,4 +195,7 @@
 
 
    </footer>
+
+
 </body>
+</html>
