@@ -605,7 +605,7 @@ main .ofertas article .nombre-precio-mas a{
     
     color: black;
     text-decoration: none;
-    
+    font-weight: bold;
     padding: 6px;
     font-size: 15px;
     border-radius: 2px;
