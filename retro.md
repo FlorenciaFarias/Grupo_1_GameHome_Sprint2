@@ -1,25 +1,32 @@
-## Retrospectiva :nerd_face: 
-
-# GAME HOME 🚀
+## RETROSPECTIVA :nerd_face: -
 
 
-### **Comenzar a hacer**
-
-    *Organizar de una manera eficiente los trabajos y el tiempo que demandara cada uno para que sean repartidos de manera uniforme entre los integrantes.*
-
-### **Hacer más**    
-
-    *Organizar mejor nuestro tiempo, reunirnos mas en llamadas como las daylis para ver el avance personal de los integrantes del grupo, generar avances significativos en requerimientos tecnicos del sprint, organizar nuestro trabajo con Trello y poder tenerlo en cuenta siempre a la hora de trabajar.*
-
-### **Continuar haciendo**    
-
-    *Mantener un flujo de trabajo constante como venimos llevando, la comunicacion entre los integrantes ya que es de vital importancia para el funcionamiento del grupo, la ayuda entre nosotros para la resolucion de problemas e inconvenientes.*
 
 
-### **Hacer menos**    
+## **Comenzar a hacer**:writing_hand:
+    - Organizar de una manera eficiente los trabajos y el tiempo que demandará cada uno.
+    - Repartir las tareas uniformemente.  
 
-    *No sobrecargarse personalmente con demasiadas tareas, no poner enfasis en los objetivos y requerimientos antes que en detalles extras.*
+## **Hacer más**    :handshake:
 
-### **Dejar de hacer**   
+    - Organizar mejor nuestro tiempo.
+    - Reunirnos más en llamadas como las daylis para ver el progreso personal de los integrantes del grupo.
+    - Generar avances significativos en requerimientos técnicos del sprint.
+    - Organizar nuestro trabajo con Trello y poder tenerlo en cuenta siempre a la hora de trabajar.
 
-    *Tener falta de comunicacion en algunos momentos del proceso, tener falta de organizacion en cuanto a las tareas.*
+## **Continuar haciendo**    :muscle:
+
+    - Mantener un flujo de trabajo constante como venimos llevando.
+    - La comunicación entre los integrantes ya que es de vital importancia para el funcionamiento del equipo.
+    - Ayudarnos entre nosotros para la resolución de problemas e inconvenientes.
+
+
+## **Hacer menos**  :eyes:
+
+    - Sobrecargarse personalmente con demasiadas tareas
+    - Poner énfasis en los detalles extras antes que en los objetivos y requerimientos propios del sprint.
+
+## **Dejar de hacer** 	:stop_sign:  
+
+    - Tener falta de comunicación en algunos momentos del proceso.
+    - Desorganización en cuanto a la resolución de tareas.
