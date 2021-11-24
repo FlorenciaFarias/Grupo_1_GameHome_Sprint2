@@ -15,43 +15,31 @@ amarillo: #faeb52
 }
 
 body{
-    margin: 0px;
-    background: rgb(127,127,255);
-    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
     font-family: Montserrat, sans-serif;
-    /*justify-content: center;
-    align-items: center;*/
-
+    background: rgb(26,10,45);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(10,8,61,1) 57%);
+    color: white;
 }
 
     /*MOBILE*/
 
 /*---------HEADER--------*/
 
-body{
-    background: rgb(127,127,255);
-    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
-    font-family: Montserrat, sans-serif;;
-    color: white;
-}
-
 
 .barra1{
     width: 100%;
     height: 110px;
-    /*border: solid 1px red;*/
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(197, 191, 191);
-    
     
 }
 
 
 .barra1 img{
-    display: none;
-   
+    display: none; 
 }
+
 .contenedor-logo{
     width: 200px;
     height: 109px;
@@ -77,7 +65,6 @@ body{
     font-size: 22px;
     border-radius: 4px;
     left: 89%;
-    
     padding: 10px;
     color:#FFF;
 }
@@ -291,9 +278,9 @@ footer .seccion2{
      /*------HEADER---------*/
 
 
-    .barra1 img{
+     .barra1 img{
         display: block;
-        width: 87%;
+        width: 85%;
 
      }
     .burger-menu{
@@ -402,10 +389,8 @@ footer .seccion2{
     footer{
         margin-top: 100px;
     }
-    footer .seccion1 img{
-        display: inline-block;
-        margin-top: 22px;
-    }
+   
+    
     footer .seccion1{
         
         display: flex;
@@ -416,9 +401,10 @@ footer .seccion2{
     }
 
     footer .seccion1 img{
-        width: 15%;
-        
-        
+        display: inline-block;
+        margin-top: 50px;
+        width: 30vw;
+        height: 17vh;
     }
 
     footer .seccion2{
@@ -432,9 +418,29 @@ footer .seccion2{
 
 }
 
+@media (min-width:1000px){
 
+    /*--HEADER--------*/
 
+    .barra1.iconos{
 
+        margin-right: -50px
+    }
+    
+    .barra1 .iconos i{
+       margin-right: 15px;
+    }
 
+ /*------FOOTER----------*/
+
+    
+}
+
+footer .seccion1 img{
+    display: inline-block;
+    margin-top: 21px;
+    width: 17vw;
+    height: 19vh;
+}
 
 

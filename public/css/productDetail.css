@@ -8,9 +8,9 @@
    
 /*---------HEADER--------*/
 body{
-    background: rgb(127,127,255);
-    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
-    font-family: Montserrat, sans-serif;;
+    font-family: Montserrat, sans-serif;
+    background: rgb(26,10,45);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(10,8,61,1) 57%);
     color: white;
 }
 .barra1{
@@ -331,10 +331,10 @@ footer .seccion2{
      /*------HEADER---------*/
 
 
+     
      .barra1 img{
         display: block;
-        width: 35%;
-
+        width: 85%;
      }
     .burger-menu{
         display: none;
@@ -461,16 +461,17 @@ footer .seccion2{
 
 @media (min-width:1000px){
 
-/*--HEADER--------*/
-
     
+ /*--HEADER--------*/
+
+ .barra1.iconos{
+
+    margin-right: -50px
+}
+
 .barra1 .iconos i{
-    margin-right: 15px;
- }
-
-
-
-
+   margin-right: 15px;
+}
 
 
 /*------MAIN---------*/
@@ -530,7 +531,7 @@ main .ofertas article:hover{
 .ver-mas{
 
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,140,140,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,140,140,1) 100%);
     border: 1px solid black;
     padding: 6px;
     font-size: 15px;
@@ -621,5 +622,10 @@ main .ofertas article .nombre-precio-mas .ver-mas{
     }
 
 
-
+    footer .seccion1 img{
+        display: inline-block;
+        margin-top: 21px;
+        width: 17vw;
+        height: 19vh;
+    }
 }

@@ -9,8 +9,8 @@
 /*---------HEADER--------*/
 
 body{
-    background: rgb(127,127,255);
-    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
+    background: rgb(26,10,45);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(10,8,61,1) 57%);
     font-family: Montserrat, sans-serif;;
     color: white;
 }
@@ -112,7 +112,9 @@ body{
 
 
 
-
+main a{
+    width: auto;
+}
 main .imagen-gamer{
     margin-top: 6px;
     width: 100%;
@@ -413,7 +415,7 @@ footer .seccion2{
 
      .barra1 img{
         display: block;
-        width: 35%;
+        width: 85%;
 
      }
     .burger-menu{
@@ -513,14 +515,15 @@ body main .categorias-destacado{
     display: flex;
     justify-content: space-between;
     width: 90%;
-   margin-top: 30px;
+    margin-top: 30px;
+    
 }
 
 body main .categorias-destacado .destacado02{
     
     width: 50%;
     padding: 5px;
-
+    
 }
     
     body main .categorias-destacado .categorias02{
@@ -528,23 +531,26 @@ body main .categorias-destacado .destacado02{
         display: flex;
         flex-wrap: wrap;
         padding: 6px;
+        
     }
     
     body main .categorias-destacado .categorias02 .categoria-uno{
         
        align-self: flex-start;
        height: 12vw;
-        
+       border: #8d53fd solid 1px; 
     }
     body main .categorias-destacado .categorias02 .categoria-dos{
         
         align-self: center;
         height: 12vw;
+        border: #87f234 solid 1px;
      }
      body main .categorias-destacado .categorias02 .categoria-tres{
         
         align-self: flex-end;
         height: 12vw;
+        border: #faeb52 solid 1px;
 
         /* Hasta aca llega la seccion de destacado y categorias con imagenes*/
      }
@@ -557,11 +563,13 @@ body main .categorias-destacado .destacado02{
          justify-content: space-around;
          flex-wrap: wrap;
          width: 90%;
+         
         
      }
      body main .que-estas-buscando article{
          margin-top: 30px;
          width: 40%;
+         box-shadow: 1px 0px 10px #2757ff;
          margin-bottom: 5px;
          transition: all 0.4s;
     }
@@ -597,7 +605,9 @@ body main .categorias-destacado .destacado02{
     }
     footer .seccion1 img{
         display: inline-block;
-        margin-top: 22px;
+        margin-top: 50px;
+        width: 30vw;
+        height: 17vh;
     }
     footer .seccion1{
         
@@ -608,11 +618,6 @@ body main .categorias-destacado .destacado02{
         
     }
 
-    footer .seccion1 img{
-        width: 15%;
-        
-        
-    }
 
     footer .seccion2{
         display: flex;
@@ -797,3 +802,9 @@ body main .categorias-destacado .destacado02{
     
     }
 
+    footer .seccion1 img{
+        display: inline-block;
+        margin-top: 21px;
+        width: 17vw;
+        height: 19vh;
+    }
