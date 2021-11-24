@@ -404,9 +404,187 @@ footer .seccion2{
 }
 
 
-@media (min-width:700px){
 
-    /*TABLET*/
+
+
+
+
+
+/*--FORMULARIO DE REGISTRO CSS--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family:'Roboto' ,sans-serif;
+}
+
+
+
+/*--Contenedor de los registros--*/
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+/*--Contenedor del form--*/
+
+.login-container{
+    display: block;
+    width: 650px;
+    height: auto;
+    background:  #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+
+}
+
+/*--Seccion Registro --*/
+
+
+.register, .login{
+    flex: 1;
+
+}
+
+.register{
+    padding: 40px;
+    position: relative;
+    /*
+    background-image: linear-gradient(to bottom right ,#8d53fd,#2757ff);
+    */
+    
+}
+
+.register h2{
+    color: #333;
+    margin-bottom: 30px;
+    text-shadow: 6px 0px 7px #87f234;;
+}
+
+.register input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style:none ;
+    border-left-style:none;
+    border-right-style:none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+}
+.register input:active,
+.register input:focus{
+    outline: none;
+}
+
+.register .submit{
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(to right ,#72d129,#87f234,#faeb52) ;
+    color:white ;
+    font-size: 12px;
+    box-shadow:6px 0px 7px #000; 
+    cursor: pointer;
+}
+
+/*--FlechaCircular--*/
+.register::after{
+    content: '>';
+    position:absolute ;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: -23px;
+    text-align: center;
+    font-size: 19px;
+    background:#87f234;
+    border-radius: 50%;
+    transform: translateY(-50%)rotate(90deg);
+    box-shadow:-1px 1px 3px 1px rgba(0, 0, 0, .2) ;
+    color: #000;
+    top: unset;
+    bottom: -25px;
+    left: 48%;
+}
+
+
+/*--Registro redes--*/
+
+.login{
+background-image: linear-gradient(to bottom right ,#faeb52,#87f234);
+padding: 40px;
+}
+
+.login h2{
+    color:#fff ;
+    text-shadow: black;
+    margin-bottom: 45px;
+}
+
+.login button i{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.login button{
+ width: 100%;
+ margin: 15px 0px;
+ padding: 10px;
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2) ;
+cursor: pointer;
+position: relative;
+}
+
+.login .fb{
+    background: #3b5999;
+    border-style: none;
+    color: #fff;
+  }
+   
+  .login .tw{
+    background: #55acef;
+    border-style: none;
+    color: #fff;
+  }
+   
+  .login .ig{
+    background:linear-gradient(to bottom right ,#911191,#a7338a);
+    border-style: none;
+    color: #fff;
+  }
+   
+
+
+  
+  /*--MEDIA 700--*/
+  
+  @media (min-width:700px){
+
+ 
+    /*--REGISTRO--*/
+
+   .login-container{
+    display: flex;
+    width: 650px;
+    height: auto;
+    background:  #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+
+}
+.register::after{
+    display: block;
+    transform: translateX(-50%);
+    top: unset;
+    bottom: 50%;
+    left: 100%;
+    
+}
+   /*TABLET*/
 
      /*------HEADER---------*/
 
@@ -488,140 +666,38 @@ footer .seccion2{
 
     }
 
-    
-/*------MAIN---------*/
-    .descripcion{
-        font-size: 15px;
-        margin: auto;
-
-    }
-    .precio{
-
-        margin-right: 15%;
-    }
-    .cantidad-input{
-        width: 10%;
-        margin-top: 10%;
+    /*------FOOTER---------*/
+footer{
+    margin-top: 100px;
 }
-
-
-/*------MAIN---------*/
-
+footer .seccion1 img{
+    display: inline-block;
+    margin-top: 50px;
+    width: 30vw;
+    height: 17vh;
+}
+footer .seccion1{
     
-   
-body main .categorias-destacado{
     display: flex;
     justify-content: space-between;
-    width: 90%;
-   margin-top: 30px;
-}
-
-body main .categorias-destacado .destacado02{
+    margin-top: 10px;
     
-    width: 50%;
-    padding: 5px;
-
-}
-    
-    body main .categorias-destacado .categorias02{
-       width: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 6px;
-    }
-    
-    body main .categorias-destacado .categorias02 .categoria-uno{
-        
-       align-self: flex-start;
-       height: 12vw;
-        
-    }
-    body main .categorias-destacado .categorias02 .categoria-dos{
-        
-        align-self: center;
-        height: 12vw;
-     }
-     body main .categorias-destacado .categorias02 .categoria-tres{
-        
-        align-self: flex-end;
-        height: 12vw;
-
-        /* Hasta aca llega la seccion de destacado y categorias con imagenes*/
-     }
-
-
-     /*Seccion de lo mas destacado*/
-
-     body main .que-estas-buscando{
-         display: flex;
-         justify-content: space-around;
-         flex-wrap: wrap;
-         width: 90%;
-        
-     }
-     body main .que-estas-buscando article{
-         margin-top: 30px;
-         width: 40%;
-         margin-bottom: 5px;
-         transition: all 0.4s;
-    }
-    body main .que-estas-buscando article:hover{
-        box-shadow: 1px 0px 10px #01f174;
-     }
-
-
-
-     /*Banners*/
-
-     main .banners{
-        display: flex;
-        width: 90%;
-        justify-content: space-between;
-
-    }
-    main .banners img{
-        padding: 5px;
-        width: 50%;
-        height: 15vw;
-
-    }
-
-
-
-
-
-
-    /*------FOOTER---------*/
-    footer{
-        margin-top: 100px;
-    }
-    footer .seccion1 img{
-        display: inline-block;
-        margin-top: 22px;
-    }
-    footer .seccion1{
-        
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        
-        
-    }
-
-    footer .seccion1 img{
-        width: 15%;
-        
-        
-    }
-
-    footer .seccion2{
-        
-        justify-content:space-between;
-        
-    }
-
     
 }
+
+
+footer .seccion2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+   
+}
+    
+
+/*--MEDIA 1000--*/
+
 
 @media (min-width:1000px){
 
@@ -794,200 +870,7 @@ body main .categorias-destacado .destacado02{
 
     
     }
-
-
-
-/*--FORMULARIO DE REGISTRO CSS--*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-    font-family:'Roboto' ,sans-serif;
-}
-
-
-
-/*--Contenedor de los registros--*/
-.container{
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-}
-
-/*--Contenedor del form--*/
-
-.login-container{
-    display: block;
-    width: 650px;
-    height: auto;
-    background:  #fff;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-
-}
-
-/*--Seccion Registro --*/
-
-
-.register, .login{
-    flex: 1;
-
-}
-
-.register{
-    padding: 40px;
-    position: relative;
-    /*
-    background-image: linear-gradient(to bottom right ,#8d53fd,#2757ff);
-    */
-    
-}
-
-.register h2{
-    color: #333;
-    margin-bottom: 30px;
-    text-shadow: 6px 0px 7px #87f234;;
-}
-
-.register input{
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-    margin-bottom: 25px;
-    border-top-style:none ;
-    border-left-style:none;
-    border-right-style:none;
-    border-bottom: 1px solid #a8a8a8;
-    color: #333;
-}
-.register input:active,
-.register input:focus{
-    outline: none;
-}
-
-.register .submit{
-    width: auto;
-    padding: 10px;
-    background:linear-gradient(to right ,#72d129,#87f234,#faeb52) ;
-    color:white ;
-    font-size: 12px;
-    box-shadow:6px 0px 7px #000; 
-    cursor: pointer;
-}
-
-/*--FlechaCircular--*/
-.register::after{
-    content: '>';
-    position:absolute ;
-    width: 25px;
-    height: 25px;
-    top: 50%;
-    right: -23px;
-    text-align: center;
-    font-size: 19px;
-    background:#87f234;
-    border-radius: 50%;
-    transform: translateY(-50%)rotate(90deg);
-    box-shadow:-1px 1px 3px 1px rgba(0, 0, 0, .2) ;
-    color: #000;
-    top: unset;
-    bottom: -25px;
-    left: 48%;
-}
-
-
-/*--Registro redes--*/
-
-.login{
-background-image: linear-gradient(to bottom right ,#faeb52,#87f234);
-padding: 40px;
-}
-
-.login h2{
-    color:#fff ;
-    text-shadow: black;
-    margin-bottom: 45px;
-}
-
-.login button i{
-    position: absolute;
-    top: 12px;
-    left: 12px;
-}
-
-.login button{
- width: 100%;
- margin: 15px 0px;
- padding: 10px;
-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2) ;
-cursor: pointer;
-position: relative;
-}
-
-.login .fb{
-    background: #3b5999;
-    border-style: none;
-    color: #fff;
-  }
-   
-  .login .tw{
-    background: #55acef;
-    border-style: none;
-    color: #fff;
-  }
-   
-  .login .ig{
-    background:linear-gradient(to bottom right ,#911191,#a7338a);
-    border-style: none;
-    color: #fff;
-  }
-   
-
-
-  
-  
-  
-  @media (min-width:700px){
-
-.login-container{
-    display: flex;
-    width: 650px;
-    height: auto;
-    background:  #fff;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
-
-}
-.register::after{
-    display: block;
-    transform: translateX(-50%);
-    top: unset;
-    bottom: 50%;
-    left: 100%;
-    
-}
-
-
-   
-    }
-    
   
 
-    .logo{
-        margin: 12px;
-        text-align: center;
-    }
-    .logo img{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        width: 90%;
-        padding: 15;
-        
-    
-    
-    }
-
+   
     
