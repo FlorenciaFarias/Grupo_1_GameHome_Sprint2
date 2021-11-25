@@ -518,30 +518,35 @@ footer .seccion2{
    
 body main .categorias-destacado{
     display: flex;
-    justify-content: space-between;
-    width: 86%;
-    margin-top: 30px;
-    margin: auto;
     
+    width: 90%;
+    
+    margin: auto;
+    margin-left: 11%;
     
     
 }
 
 body main .categorias-destacado .destacado02{
     
-    width: 50%;
-    padding: 5px;
+    width: 45%;
+    
     
 }
    
-
+.categorias-destacado .destacado02 .destacado{
+    
+    border: #2757ff solid 1px;   
+    box-shadow: 1px 2px 10px #2757ff;
+    margin-top: 3%;
+}
 
     body main .categorias-destacado .categorias02{
-        width: 50%;
+        width: 45%;
         display: flex;
         flex-wrap: wrap;
-        padding: 5px;
-       
+        padding: 6px;
+       margin-top: 1px;
         
     }
     
@@ -549,8 +554,8 @@ body main .categorias-destacado .destacado02{
         
        align-self: flex-start;
        height: 12vw;
-       border: #8d53fd solid 1px; 
-    
+       border: #8d53fd solid 1px;   
+       box-shadow: 1px 2px 10px #8d53fd;
 
     }
 
@@ -558,6 +563,7 @@ body main .categorias-destacado .destacado02{
         
         align-self: center;
         height: 12vw;
+        box-shadow: 1px 2px 10px #87f234;
         border: #87f234 solid 1px;
         width: 100%;
         
@@ -566,6 +572,7 @@ body main .categorias-destacado .destacado02{
         
         align-self: flex-end;
         height: 12vw;
+        box-shadow: 1px 2px 10px #faeb52;
         border: #faeb52 solid 1px;
         width: 100%;
     
