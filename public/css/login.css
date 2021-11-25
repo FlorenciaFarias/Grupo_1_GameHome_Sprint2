@@ -9,8 +9,8 @@
 /*---------HEADER--------*/
 
 body{
-    background: rgb(127,127,255);
-    background: linear-gradient(0deg, rgba(127,127,255,1) 8%, rgba(2,0,36,1) 97%);
+    background: rgb(26,10,45);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(10,8,61,1) 57%);
     font-family: Montserrat, sans-serif;;
     color: white;
 }
@@ -37,6 +37,10 @@ body{
     height: 109px;
     bottom: 1px;
 
+}
+.barra1 img{
+    display: none;
+   
 }
 
 .burger-menu i{
@@ -486,8 +490,8 @@ footer .seccion2{
     width: 100%;
     padding: 10px;
     background:linear-gradient(to right ,#72d129,#87f234,#faeb52) ;
-    color:white ;
-    font-size: 12px;
+    color:#000000 ;
+    font-size: 16px;
     box-shadow:6px 0px 7px #000; 
     cursor: pointer;
 }
@@ -558,6 +562,9 @@ position: relative;
     border-style: none;
     color: #fff;
   }
+  .registrate{
+      color:#000000
+  }
    
 
 
@@ -566,9 +573,12 @@ position: relative;
   
   @media (min-width:700px){
 
+   
+
  
     /*--REGISTRO--*/
 
+    
    .login-container{
     display: flex;
     width: 650px;
@@ -592,7 +602,7 @@ position: relative;
 
      .barra1 img{
         display: block;
-        width: 35%;
+        width: 85%;
 
      }
     .burger-menu{
@@ -671,11 +681,11 @@ position: relative;
 footer{
     margin-top: 100px;
 }
-footer .seccion1 img{
+footer .seccion1 img {
     display: inline-block;
-    margin-top: 50px;
-    width: 30vw;
-    height: 17vh;
+    margin-top: 21px;
+    width: 17vw;
+    height: 19vh;
 }
 footer .seccion1{
     
@@ -695,6 +705,7 @@ footer .seccion2{
 
    
 }
+
     
 
 /*--MEDIA 1000--*/
@@ -743,7 +754,9 @@ footer .seccion2{
     
     
     }
-    
+    .registrate{
+        color: #000000;
+    }
     
     main .ofertas{
         display: flex;
@@ -868,7 +881,12 @@ footer .seccion2{
 
 
     /*------FOOTER----------*/
-
+    footer .seccion1 img{
+        display: inline-block;
+        margin-top: 21px;
+        width: 17vw;
+        height: 19vh;
+    }
     
     }
   

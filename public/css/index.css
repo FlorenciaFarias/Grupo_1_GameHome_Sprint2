@@ -364,7 +364,7 @@ footer .seccion1{
     /*background-color: rgb(228, 227, 227);*/
     border-top: solid 1px rgb(228, 227, 227);
 }
-footer .seccion1 img{
+footer  img{
  
     display: none;
    
@@ -670,11 +670,11 @@ body main .categorias-destacado .destacado02{
     footer{
         margin-top: 100px;
     }
-    footer .seccion1 img{
+    footer .seccion1 img {
         display: inline-block;
-        margin-top: 50px;
-        width: 30vw;
-        height: 17vh;
+        margin-top: 21px;
+        width: 17vw;
+        height: 19vh;
     }
     footer .seccion1{
         
@@ -865,13 +865,13 @@ body main .categorias-destacado .destacado02{
 
 
     /*------FOOTER----------*/
-
-    
-    }
-
     footer .seccion1 img{
         display: inline-block;
         margin-top: 21px;
         width: 17vw;
         height: 19vh;
     }
+    
+    }
+
+  
