@@ -432,14 +432,14 @@ footer .seccion2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 110px;
+    margin-top: 98px;
 }
 
 /*--Contenedor del form--*/
 
 .login-container{
     display: block;
-    width: 650px;
+    width: 450px;
     height: auto;
     background:  #fff;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
@@ -544,6 +544,14 @@ box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2) ;
 cursor: pointer;
 position: relative;
 }
+
+
+
+.login .gg{
+    background-color: rgb(216, 30, 30);
+    border-style: none;
+    color: #fff;
+}   
 
 .login .fb{
     background: #3b5999;
