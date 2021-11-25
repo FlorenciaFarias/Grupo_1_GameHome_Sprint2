@@ -6,7 +6,7 @@ const port = 3030;
 //Ruta elementos estaticos
 app.use(express.static('public'))
 app.use(express.static('public'))
-app.listen(port, () => console.log(`Servidor Funcionando! ${port}!`))
+app.listen(process.env.PORT ||port, () => console.log(`Servidor Funcionando! ${port}!`))
 
 //Ruta index
 app.get('/', (req, res) => {
