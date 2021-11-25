@@ -123,27 +123,33 @@ main .imagen-gamer{
 
 
 body main .categorias-destacado{
-    width: 90%;
+    width: 80%;
     margin: auto;
-    
+    margin-right: 7%;
 }
 body main .categorias-destacado .destacado02{
-width: 100%;
+    width: 100%;
+    
+    margin-left: 1%;
+    
 }
 body main .categorias-destacado .destacado02 img{
     width:90%;
-   
+      
+    
+    margin-left: 5%;
 }
 body main .categorias-destacado .categorias02{
-   
-    width: 100%;
+       
     
+    width: 100%;
+    margin-left: 1%;
 }
 
 body main .categorias-destacado .categorias02 img{
     width: 100%;
     height: 85px;
-    
+    border: #2757ff solid 1px;  
     
     /* Hasta aca llega la seccion de destacado y categorias con imagenes*/
 }
