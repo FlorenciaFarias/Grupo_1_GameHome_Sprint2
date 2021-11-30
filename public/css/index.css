@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -27,10 +27,10 @@ body{
     
 }
 
-
 .barra1 img{
-    display: none;
    
+    width: 20vw;
+    left: 79%;
 }
 .contenedor-logo{
     width: 200px;
@@ -43,7 +43,7 @@ body{
     position: absolute;
     font-size: 25px;
     border-radius: 4px;
-    right: 89%;
+    right: 1px;
     margin: auto;
     padding: 10px;
 }
@@ -51,10 +51,10 @@ body{
 
 .barra1 .carrito i{
     position: absolute;
-    font-size: 22px;
+    font-size: 21px;
     border-radius: 4px;
-    left: 89%;
-    
+    right: 10%;
+    margin-top:2px;
     padding: 10px;
     color:#FFF;
 }
@@ -63,27 +63,23 @@ body{
 .barra1 .barra-busqueda{
     display: flex;
     align-items: center;
-
+    margin-bottom:69px;
+    margin-right:27%;
+    margin-top: 3px;
 }
-
+.submit i{
+    right: 25px;
+}
 .barra1 .barra-busqueda .input{
-    height: 20px;
-    font-size: 13px;
+    height: 22px;
+    font-size: 10px;
     border: solid 2px rgb(197, 191, 191);
     padding: 6px;
     border-radius: 9px;
     text-align: center;
-    margin-right:4px ;
-}
-
-.barra1 .barra-busqueda{
-
-    
-    margin-bottom:69px;
-    margin-left:-72%;
+    margin-right:7px ;
     
 }
-
 
 
 .barra1 .iconos{
@@ -151,12 +147,14 @@ body main .categorias-destacado .categorias02 img{
     height: 85px;
     border: #2757ff solid 1px;  
     
-    /* Hasta aca llega la seccion de destacado y categorias con imagenes*/
+    
+}
+body .mobile{
+    display: none;
 }
 
 
-
-
+/* Hasta aca llega la seccion de destacado y categorias con imagenes*/
 
 
 
