@@ -606,7 +606,9 @@ body main .categorias-destacado .destacado02{
         box-shadow: 1px 0px 10px #01f174;
      }
 
-
+     body .mobile{
+        display: block;
+    }
 
      /*Banners*/
 
